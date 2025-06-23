@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: app_node
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: postgres://postgres:postgres@db:5432/app_db
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: ["./wait-for-it.sh", "db:5432", "--", "yarn", "start"]
+
+  db:
+    image: bitnami/postgresql:latest
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: app_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/bitname/postgresql
+
+volumes:
+  pgdata:
