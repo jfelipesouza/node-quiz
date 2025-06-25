@@ -7,11 +7,14 @@
     "start": "node dist/index.js",
     "dev": "tsx watch --no-cache src/index.ts",
     "studio": "npx prisma studio",
-    "build": "tsup src && yarn deploy:db",
+    "build": "tsup src",
     "push:db": "npx prisma db push",
     "generate": "npx prisma generate",
     "dev:db": "npx prisma migrate dev",
     "deploy:db": "npx prisma migrate deploy"
+  },
+  "engines": {
+    "node": "22"
   },
   "dependencies": {
     "@prisma/client": "^6.10.1",
