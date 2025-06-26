@@ -29,10 +29,10 @@ export const findQuestions = async (req: Request, res: Response) => {
     })
     if (data) {
       const questions = data.map(({ choices, id, right_choice, title }) => ({
-        rightChoice: right_choice,
-        choices,
         id,
-        title
+        title,
+        choices,
+        rightChoice: right_choice
       }))
 
       res.status(200).send({ questions })
