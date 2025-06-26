@@ -27,16 +27,15 @@ export const findQuestions = async (req: Request, res: Response) => {
         id: true
       }
     })
-    if (data) {
-      const questions = data.map(({ choices, id, right_choice, title }) => ({
-        id,
-        title,
-        choices,
-        rightChoice: right_choice
-      }))
 
-      res.status(200).send({ questions })
-    }
+    const questions = data.map(({ choices, id, right_choice, title }) => ({
+      id,
+      title,
+      choices,
+      rightChoice: right_choice
+    }))
+
+    res.status(200).send({ questions })
   }
 
   res.status(500).send({ message: 'erro' })

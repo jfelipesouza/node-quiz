@@ -1,6 +1,15 @@
 import { Request, Response } from 'express'
 import { prisma } from 'utils/database/prisma-conection'
 
+type Question = {
+  title: string
+  choices: string[]
+  rightChoice: string
+}
+type BodyManyQuestion = {
+  questions: Question[]
+}
+
 export const createQuestion = async (req: Request, res: Response) => {
   const { title, choices, rightChoice } = req.body
 
@@ -20,14 +29,6 @@ export const createQuestion = async (req: Request, res: Response) => {
   res.status(201).send({ data })
 }
 
-type Question = {
-  title: string
-  choices: string[]
-  rightChoice: string
-}
-type BodyManyQuestion = {
-  questions: Question[]
-}
 export const createManyQuestion = async (req: Request, res: Response) => {
   const { questions } = req.body as BodyManyQuestion
 

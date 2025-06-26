@@ -1,9 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
   provider = "prisma-client-js"
   output   = "../generated/prisma"
@@ -15,11 +9,18 @@ datasource db {
   directUrl = env("DIRECT_URL")
 }
 
+model User {
+  id       String @id @default(uuid())
+  email    String @unique
+  password String
+}
+
 model Question {
   id           String        @id @default(uuid())
   choices      String[]
   right_choice String?
   title        String
+  category     Category[]
   type         QuestionTypes @default(Normal)
   create_at    DateTime      @default(now())
   update_at    DateTime      @updatedAt
@@ -28,4 +29,44 @@ model Question {
 enum QuestionTypes {
   Normal
   Inline
+}
+
+enum Category {
+  ARQUITETURA_DE_COMPUTADORES
+  HARDWARES
+  ADMINISTRACAO
+  PROGRAMACAO_FUNCIONAL
+  PROGRAMACAO_IMPERATIVA
+  PROGRAMACAO_ORIENTADA_A_OBJETOS
+  SEMINARIOS_EM_COMPUTACAO
+  VETORES_E_GEOMETRIA_ANALITICA
+  CALCULO_A
+  ORGANIZACAO_METODOS_E_SISTEMAS_ADMINISTRATIVOS
+  INFORMATICA_ETICA_E_SOCIEDADE
+  FUNDAMENTOS_ELEMENTARES_DA_MATEMATICA
+  CALCULO_B
+  ESTRUTURAS_DE_DADOS
+  LOGICA_PARA_COMPUTACAO
+  ESTATISTICA_APLICADA
+  SOCIOLOGIA_DAS_ORGANIZACOES
+  GRAFOS_E_ALGORITMOS_COMPUTACIONAIS
+  PROJETO_E_ANALISE_DE_ALGORITMOS
+  SISTEMAS_OPERACIONAIS
+  METODOS_E_TECNICAS_DE_PESQUISA_PARA_COMPUTACAO
+  LINGUAGENS_FORMAIS_E_COMPUTABILIDADE
+  ENGENHARIA_DE_SOFTWARE_I
+  TEORIA_GERAL_DOS_SISTEMAS
+  BANCO_DE_DADOS_I
+  REDES_DE_COMPUTADORES
+  INTELIGENCIA_ARTIFICIAL
+  ENGENHARIA_DE_SOFTWARE_II
+  SISTEMAS_DE_APOIO_A_DECISAO
+  LABORATORIO_DE_REDES_DE_COMPUTADORES
+  SISTEMAS_DISTRIBUIDOS
+  EMPREENDEDORISMO_E_GESTAO_DE_PEQUENOS_NEGOCIOS
+  TESTE_DE_SOFTWARE
+  GESTAO_DE_SISTEMAS_DE_INFORMACAO
+  QUALIDADE_DE_SOFTWARE
+  EVOLUCAO_DE_SOFTWARE
+  GERENCIA_DE_PROJETOS
 }
