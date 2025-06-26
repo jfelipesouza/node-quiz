@@ -6,17 +6,16 @@
 
 generator client {
   provider = "prisma-client-js"
-  output   = "../src/generated/prisma"
+  output   = "../generated/prisma"
 }
 
 datasource db {
-  provider  = "postgresql"
-  url       = env("DATABASE_URL")
-  directUrl = env("DIRECT_URL")
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 model Question {
-  id           String        @id @unique @default(uuid())
+  id           String        @id @default(uuid())
   choices      String[]
   right_choice String?
   title        String

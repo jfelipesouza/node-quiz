@@ -1,0 +1,429 @@
+{
+  "questions": [
+    {
+      "title": "Qual método é usado para adicionar um item ao final de um array em JavaScript?",
+      "choices": ["push", "pop", "shift", "unshift"],
+      "rightChoice": "push",
+      "id": "281066d8-44e8-4baf-97d9-b45e6283685c"
+    },
+    {
+      "title": "Qual palavra-chave é usada para declarar uma constante em JavaScript?",
+      "choices": ["const", "var", "let", "define"],
+      "rightChoice": "const",
+      "id": "496224f3-eda9-4969-a64e-257e5dcd4e36"
+    },
+    {
+      "title": "Qual estrutura é usada para repetir um bloco de código enquanto uma condição for verdadeira?",
+      "choices": ["if", "while", "switch", "try"],
+      "rightChoice": "while",
+      "id": "2d916391-2c75-4c14-893a-6d32ae500a75"
+    },
+    {
+      "title": "Qual método converte uma string JSON em um objeto JavaScript?",
+      "choices": [
+        "JSON.parse",
+        "JSON.stringify",
+        "JSON.convert",
+        "JSON.decode"
+      ],
+      "rightChoice": "JSON.parse",
+      "id": "03c70a6c-6f6c-4f5d-81f4-c7c402a7f1c5"
+    },
+    {
+      "title": "Em JavaScript, qual operador é usado para comparar valor e tipo?",
+      "choices": ["==", "=", "===", "!="],
+      "rightChoice": "===",
+      "id": "0a7f027e-84ac-4999-a868-04045e031600"
+    },
+    {
+      "title": "Qual método remove o último item de um array em JavaScript?",
+      "choices": ["shift", "pop", "unshift", "splice"],
+      "rightChoice": "pop",
+      "id": "eae36f1b-6ad2-4311-af95-af7c163e97af"
+    },
+    {
+      "title": "Qual método retorna um novo array com os elementos que passaram em uma condição?",
+      "choices": ["filter", "map", "forEach", "reduce"],
+      "rightChoice": "filter",
+      "id": "60094524-7fa8-4086-935c-376289bcb949"
+    },
+    {
+      "title": "Qual comando é usado para importar um módulo no Node.js?",
+      "choices": ["import()", "include()", "require()", "fetch()"],
+      "rightChoice": "require()",
+      "id": "4e30ae8a-c641-4410-8e54-cbda4b5901a7"
+    },
+    {
+      "title": "Qual é o tipo de dado retornado por typeof null em JavaScript?",
+      "choices": ["null", "undefined", "object", "boolean"],
+      "rightChoice": "object",
+      "id": "9d683ee3-7521-4e4c-8f9e-8a3e80c13b26"
+    },
+    {
+      "title": "Qual método JavaScript transforma um array em uma única string?",
+      "choices": ["join", "concat", "toString", "reduce"],
+      "rightChoice": "join",
+      "id": "cfe448a7-3abf-4818-80bf-d00e4707e030"
+    },
+    {
+      "title": "Qual técnica reduz a latência de leitura em bancos NoSQL distribuídos?",
+      "choices": ["Replicação", "Sharding", "Indexação", "Buffering"],
+      "rightChoice": "Replicação",
+      "id": "3d162640-5727-4bd9-b682-dc39c6987aed"
+    },
+    {
+      "title": "Em sistemas distribuídos, qual é o principal desafio da consistência eventual?",
+      "choices": [
+        "Dados podem divergir temporariamente",
+        "Alta latência",
+        "Falta de escalabilidade",
+        "Baixa disponibilidade"
+      ],
+      "rightChoice": "Dados podem divergir temporariamente",
+      "id": "f3f8207d-2f77-4b36-9200-60aec73f846e"
+    },
+    {
+      "title": "Qual protocolo é usado para enviar e-mails?",
+      "choices": ["SMTP", "IMAP", "POP3", "HTTP"],
+      "rightChoice": "SMTP",
+      "id": "d1a596ac-f2e5-44f7-babd-e00fc7c848c9"
+    },
+    {
+      "title": "Qual é a complexidade do algoritmo de busca binária?",
+      "choices": ["O(log n)", "O(n)", "O(n log n)", "O(1)"],
+      "rightChoice": "O(log n)",
+      "id": "8e87b76e-90be-435c-a141-45da2a510993"
+    },
+    {
+      "title": "Qual comando compila um código Java?",
+      "choices": ["javac", "java", "compile", "run"],
+      "rightChoice": "javac",
+      "id": "224be6ff-6d60-4c28-9361-ecf7fd2534a8"
+    },
+    {
+      "title": "O que representa 1 byte?",
+      "choices": ["8 bits", "4 bits", "2 bits", "16 bits"],
+      "rightChoice": "8 bits",
+      "id": "1d5f5c86-c963-4944-b3fd-e47663382b7d"
+    },
+    {
+      "title": "Qual modelo OSI representa a camada de transporte?",
+      "choices": ["Camada 4", "Camada 2", "Camada 5", "Camada 3"],
+      "rightChoice": "Camada 4",
+      "id": "1c027114-ad7f-4481-bb05-d1bf413a37f8"
+    },
+    {
+      "title": "O que o método `map()` faz em JavaScript?",
+      "choices": [
+        "Transforma elementos de um array",
+        "Remove elementos duplicados",
+        "Filtra elementos",
+        "Concatena arrays"
+      ],
+      "rightChoice": "Transforma elementos de um array",
+      "id": "22f2f167-ca93-45ac-88ae-060f223c59c6"
+    },
+    {
+      "title": "Qual é a principal função do DNS?",
+      "choices": [
+        "Resolver nomes para IPs",
+        "Criptografar pacotes",
+        "Transferir arquivos",
+        "Proteger redes"
+      ],
+      "rightChoice": "Resolver nomes para IPs",
+      "id": "997aff26-93f4-46d6-b1dd-685d3304c449"
+    },
+    {
+      "title": "Qual é a porta padrão do protocolo HTTPS?",
+      "choices": ["443", "80", "21", "25"],
+      "rightChoice": "443",
+      "id": "50a3576b-b541-4f09-892b-fb74b4988f5c"
+    },
+    {
+      "title": "Qual algoritmo de substituição de página é baseado no uso recente?",
+      "choices": ["LRU", "FIFO", "Clock", "NRU"],
+      "rightChoice": "LRU",
+      "id": "930bf4d9-1cfd-4d07-953c-bfaf5fc9b7d1"
+    },
+    {
+      "title": "Qual protocolo é usado para navegar na web?",
+      "choices": ["HTTP", "FTP", "SMTP", "SSH"],
+      "rightChoice": "HTTP",
+      "id": "d386a324-4fbe-48d4-a14a-10e640684658"
+    },
+    {
+      "title": "Qual é o tempo de acesso mais rápido em hierarquia de memória?",
+      "choices": ["Registradores", "Cache", "RAM", "Disco Rígido"],
+      "rightChoice": "Registradores",
+      "id": "1a2b121e-6808-4d68-b0eb-612df3fdd44b"
+    },
+    {
+      "title": "Qual palavra-chave declara uma variável em JavaScript?",
+      "choices": ["var", "dim", "define", "select"],
+      "rightChoice": "var",
+      "id": "85840389-db10-4680-8880-e888962ef79c"
+    },
+    {
+      "title": "Qual técnica reduz o acoplamento entre classes em orientação a objetos?",
+      "choices": [
+        "Injeção de dependência",
+        "Herança múltipla",
+        "Polimorfismo",
+        "Encapsulamento"
+      ],
+      "rightChoice": "Injeção de dependência",
+      "id": "a77de2ec-1565-4a65-afac-fdde41a1f0a6"
+    },
+    {
+      "title": "Qual método JavaScript adiciona um item ao final de um array?",
+      "choices": ["push", "pop", "shift", "unshift"],
+      "rightChoice": "push",
+      "id": "5c2e30d8-d62c-4b3d-8881-62370b53b1f1"
+    },
+    {
+      "title": "Qual estrutura de dados funciona no modelo FIFO?",
+      "choices": ["Fila", "Pilha", "Lista", "Árvore"],
+      "rightChoice": "Fila",
+      "id": "8923cfcb-98a6-4698-9261-610dfdf6722f"
+    },
+    {
+      "title": "Qual componente da CPU realiza operações lógicas e aritméticas?",
+      "choices": ["ULA", "Registrador", "Cache", "Barramento"],
+      "rightChoice": "ULA",
+      "id": "6a4e0132-ed58-4cfc-9b18-9641457d435d"
+    },
+    {
+      "title": "O que é o CAP Theorem?",
+      "choices": [
+        "Consistência, Disponibilidade e Tolerância à Partição",
+        "Cache, Arquitetura e Paralelismo",
+        "Ciclo, Acesso e Prioridade",
+        "Controle, Acesso e Persistência"
+      ],
+      "rightChoice": "Consistência, Disponibilidade e Tolerância à Partição",
+      "id": "98003707-3940-499b-954b-3ce39ac7ab8d"
+    },
+    {
+      "title": "O que caracteriza uma arquitetura baseada em microsserviços?",
+      "choices": [
+        "Serviços independentes e desacoplados",
+        "Monolito com camadas",
+        "Baixa escalabilidade",
+        "Alta dependência entre módulos"
+      ],
+      "rightChoice": "Serviços independentes e desacoplados",
+      "id": "89772df4-f86d-4d04-ac1c-961654c56529"
+    },
+    {
+      "title": "Qual técnica de cache permite múltiplos blocos mapearem para o mesmo conjunto?",
+      "choices": [
+        "Mapeamento associativo por conjunto",
+        "Mapeamento direto",
+        "Mapeamento total",
+        "Cache LRU"
+      ],
+      "rightChoice": "Mapeamento associativo por conjunto",
+      "id": "89f5e555-3c8c-417e-beff-ed47a46c0371"
+    },
+    {
+      "title": "O que é um hazard de dados em pipeline?",
+      "choices": [
+        "Conflito causado por dependência entre instruções",
+        "Erro no barramento",
+        "Cache inconsistente",
+        "Erro de segmentação"
+      ],
+      "rightChoice": "Conflito causado por dependência entre instruções",
+      "id": "37648a67-ed58-4806-b8ea-ab1a429a91a2"
+    },
+    {
+      "title": "Qual componente é responsável por buscar instruções da memória?",
+      "choices": [
+        "Unidade de Controle",
+        "ULA",
+        "Registrador de Instrução",
+        "Decodificador"
+      ],
+      "rightChoice": "Unidade de Controle",
+      "id": "fa30dce1-2bec-48bc-bd20-95c61c873d44"
+    },
+    {
+      "title": "O que é prefetching em arquitetura de computadores?",
+      "choices": [
+        "Busca antecipada de instruções ou dados",
+        "Aumento do clock da CPU",
+        "Técnica de overclock",
+        "Substituição de páginas"
+      ],
+      "rightChoice": "Busca antecipada de instruções ou dados",
+      "id": "4e08ac49-a7cd-4676-8792-62e2779dd0d9"
+    },
+    {
+      "title": "Qual é a principal função da MMU (Memory Management Unit)?",
+      "choices": [
+        "Traduzir endereços virtuais em físicos",
+        "Gerenciar o cache",
+        "Executar instruções",
+        "Multiplexar sinais de entrada"
+      ],
+      "rightChoice": "Traduzir endereços virtuais em físicos",
+      "id": "5ed3b08b-6015-423a-8105-6030164d467f"
+    },
+    {
+      "title": "O que caracteriza uma arquitetura RISC?",
+      "choices": [
+        "Instruções simples e execução rápida",
+        "Conjunto de instruções complexo",
+        "Uso intensivo de microcódigo",
+        "Alta latência por instrução"
+      ],
+      "rightChoice": "Instruções simples e execução rápida",
+      "id": "fc1c2be4-462b-4ea2-9052-b99b47a86cbc"
+    },
+    {
+      "title": "Qual barramento é responsável por transferir dados entre CPU e memória?",
+      "choices": [
+        "Barramento de dados",
+        "Barramento de controle",
+        "Barramento de endereço",
+        "Barramento interno"
+      ],
+      "rightChoice": "Barramento de dados",
+      "id": "e68abc2a-c53e-411b-a229-676154847025"
+    },
+    {
+      "title": "Qual é o papel do pipeline em uma CPU moderna?",
+      "choices": [
+        "Permitir execução paralela de partes da instrução",
+        "Gerar energia para a CPU",
+        "Controlar acesso ao disco",
+        "Transmitir sinais de clock"
+      ],
+      "rightChoice": "Permitir execução paralela de partes da instrução",
+      "id": "c5a100e3-1915-4892-a03d-7557b4251823"
+    },
+    {
+      "title": "Qual técnica tenta minimizar falhas de cache por proximidade temporal?",
+      "choices": [
+        "Prefetching",
+        "Pipeline",
+        "Cache write-back",
+        "Branch prediction"
+      ],
+      "rightChoice": "Prefetching",
+      "id": "1c955b0d-7b7a-43ef-940a-0819ed586c1d"
+    },
+    {
+      "title": "O que é branch prediction em CPUs modernas?",
+      "choices": [
+        "Previsão de desvios de controle no fluxo de instruções",
+        "Execução especulativa de dados",
+        "Detecção de exceções",
+        "Substituição de blocos em memória"
+      ],
+      "rightChoice": "Previsão de desvios de controle no fluxo de instruções",
+      "id": "5adf1810-76c1-45ab-afc9-8caa0a7011e0"
+    },
+    {
+      "title": "Qual nível de cache geralmente é o maior e mais lento?",
+      "choices": ["L3", "L1", "L2", "TLB"],
+      "rightChoice": "L3",
+      "id": "73eb8288-0524-4fbb-97a3-f15fb8c32d71"
+    },
+    {
+      "title": "O que significa ILP em arquitetura de computadores?",
+      "choices": [
+        "Paralelismo em nível de instrução",
+        "Processamento em lote",
+        "Baixo consumo energético",
+        "Instrução de longa precisão"
+      ],
+      "rightChoice": "Paralelismo em nível de instrução",
+      "id": "d1e3c835-80bd-4a5e-b7b6-2a411cd5731d"
+    },
+    {
+      "title": "Qual componente armazena temporariamente os dados usados pela ULA?",
+      "choices": ["Registradores", "Cache", "Barramento", "Memória virtual"],
+      "rightChoice": "Registradores",
+      "id": "b1ec5def-b446-48cb-939b-670b9d7a9b86"
+    },
+    {
+      "title": "O que é uma exceção síncrona?",
+      "choices": [
+        "Erro causado diretamente por instrução executada",
+        "Erro assíncrono do hardware",
+        "Falha de energia",
+        "Interrupção de I/O"
+      ],
+      "rightChoice": "Erro causado diretamente por instrução executada",
+      "id": "a531b8fb-16a3-48aa-ae1a-d4e0d1a69b68"
+    },
+    {
+      "title": "O que é TLB (Translation Lookaside Buffer)?",
+      "choices": [
+        "Cache de traduções de endereços de memória virtual",
+        "Registrador de status",
+        "Tabela de páginas secundária",
+        "Cache de instruções"
+      ],
+      "rightChoice": "Cache de traduções de endereços de memória virtual",
+      "id": "1a5b0c6e-d785-42c4-880a-cfb7ca7ba708"
+    },
+    {
+      "title": "Qual das opções é uma técnica para evitar hazards estruturais em pipeline?",
+      "choices": [
+        "Duplicação de unidades funcionais",
+        "Branch delay slot",
+        "Execução especulativa",
+        "Clock variável"
+      ],
+      "rightChoice": "Duplicação de unidades funcionais",
+      "id": "8d478050-b8ba-4c2e-b74f-64bff28b906d"
+    },
+    {
+      "title": "Qual técnica permite execução fora de ordem de instruções?",
+      "choices": [
+        "Out-of-order execution",
+        "Superscalar",
+        "Forwarding",
+        "Dual-core"
+      ],
+      "rightChoice": "Out-of-order execution",
+      "id": "090f907f-f629-4377-9572-7f354cc71d34"
+    },
+    {
+      "title": "Em sistemas de multiprocessamento, o que é cache coherence?",
+      "choices": [
+        "Consistência dos dados entre caches de diferentes núcleos",
+        "Segurança dos dados em cache",
+        "Backup automático de cache",
+        "Sincronização entre RAM e disco"
+      ],
+      "rightChoice": "Consistência dos dados entre caches de diferentes núcleos",
+      "id": "0a93d378-68be-480e-9602-62c99f4119de"
+    },
+    {
+      "title": "Qual é o objetivo do superscalar em CPUs?",
+      "choices": [
+        "Executar múltiplas instruções por ciclo de clock",
+        "Reduzir o clock da CPU",
+        "Aumentar o barramento de dados",
+        "Reduzir consumo de memória"
+      ],
+      "rightChoice": "Executar múltiplas instruções por ciclo de clock",
+      "id": "af73268e-930c-401c-88b9-2746d790b6a3"
+    },
+    {
+      "title": "O que é hazard de controle?",
+      "choices": [
+        "Ocorrência de desvios que afetam o fluxo de instruções",
+        "Falha na transmissão de dados",
+        "Interferência no barramento",
+        "Problema na segmentação de memória"
+      ],
+      "rightChoice": "Ocorrência de desvios que afetam o fluxo de instruções",
+      "id": "ab157d27-d167-42a6-8714-f99fd1eb92d7"
+    }
+  ]
+}
